@@ -1,0 +1,45 @@
+.{
+    .name = .graphics,
+    .version = "0.0.0",
+    .fingerprint = 0xc0c9bc586cc42daa,
+    .dependencies = .{
+        .sdl2_prebuilt_macos = .{
+            .url = "https://github.com/zig-gamedev/sdl2-prebuilt-macos/archive/7bc0fa9101342c019eed252d43f490660dfa411b.tar.gz",
+            .hash = "sdl2_prebuilt_macos-0.2.0-dev-DaOxP5Eq2QBpNBkpXn2qjyI6_s0gINcbdUMpqI1KshaH",
+            .lazy = true,
+        },
+        .sdl2_prebuilt_x86_64_windows_gnu = .{
+            .url = "https://github.com/zig-gamedev/sdl2-prebuilt-x86_64-windows-gnu/archive/8de1512cedfa1fb3ab17ecf295af8cabd7f231f1.tar.gz",
+            .hash = "sdl2_prebuilt_x86_64_windows_gnu-0.2.0-dev-HPeIhv2VaQBOWF4Fjtr7Vb9bA852pUtwUuQKdvNvkA98",
+            .lazy = true,
+        },
+        .sdl2_prebuilt_x86_64_linux_gnu = .{
+            .url = "https://github.com/zig-gamedev/sdl2-prebuilt-x86_64-linux-gnu/archive/ce2b511c052c3fdc35c286ade8235d2830a50992.tar.gz",
+            .hash = "sdl2_prebuilt_x86_64_linux_gnu-0.2.0-dev-NHZ_xrzSHwDJDoAxuVi000OEq428znS1fDRRJE8PlXHu",
+            .lazy = true,
+        },
+
+        .ztracy = .{
+            .url = "git+https://github.com/zig-gamedev/ztracy.git?ref=main#be3d003f29d59d72e68e493ab531374ab474a795",
+            .hash = "ztracy-0.14.0-dev-zHJSq1oQFwCAq2LhbqsBUmZAipMzsD8UfKL5Etc_OJMb",
+        },
+
+        .zopengl = .{
+            .url = "git+https://github.com/zig-gamedev/zopengl.git#2c2eb79283b7c1149da9eae6948dedb072b5d058",
+            .hash = "zopengl-0.6.0-dev-5-tnzzFUCACS5Ongbip8bl028sYtkNnzNSjhsfRj3yk1",
+        },
+        .zsdl = .{
+            .url = "git+https://github.com/zig-gamedev/zsdl.git?ref=main#b0804762a2277dcfe8a52d3ae86112a4c47c8d73",
+            .hash = "zsdl-0.4.0-dev-rFpjE2lXWQDkQzXKp_gIQ0ynAQ3NiB_ABpx0Xwxu5P8j",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+        "resources",
+        ".gitignore",
+        ".zigversion",
+        "src",
+    },
+}
